@@ -1,6 +1,5 @@
-const button = document.createElement('button');  // gomb elem létrehozása
-button.textContent = 'Játék indítása';  // gomb szövege
-button.addEventListener('click', function() {  // kattintás esemény hozzáadása
-  window.location.href = 'https://readyadam.github.io/Game/';  // új oldal megnyitása
+const jatekInditasButton = document.getElementById('jatek-inditas-btn');
+
+jatekInditasButton.addEventListener('click', function() {
+  window.location.href = 'https://readyadam.github.io/Game/';
 });
-document.body.appendChild(button);  // gomb hozzáadása a dokumentumhoz
